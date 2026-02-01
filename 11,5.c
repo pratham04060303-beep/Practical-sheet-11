@@ -46,7 +46,8 @@ if(size > size1){
     if(temp > size){
         printf("elements in both arrays are same ");
     }
-}else{for(int x = 0;x < size1;x++){
+}else{
+    for(int x = 0;x < size1;x++){
             int count = 0;
             for(int y = 0;y < size;y++){
 
